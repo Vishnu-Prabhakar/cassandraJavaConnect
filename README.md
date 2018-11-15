@@ -1,2 +1,2 @@
 # cassandraJavaConnect
-Java Main program to connect with cassandra single node instance
+Java Main program as Maven project to connect with cassandra single node instance
