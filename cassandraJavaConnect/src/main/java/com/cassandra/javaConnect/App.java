@@ -28,7 +28,7 @@ public class App {
 		 * create table using the query:CREATE TABLE emp(emp_id int PRIMARY KEY ,
 		 * emp_name text);
 		 */
-		String cqlStatement = "SELECT * FROM my_product_range";
+		String cqlStatement = "SELECT * FROM emp";
 		for (Row row : session.execute(cqlStatement)) {
 			System.out.println(row.toString());
 		}
